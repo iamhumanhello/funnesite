@@ -7,7 +7,7 @@ body {
     background: lightskyblue;
     text-align: center;
     }
-.evilButton {
+#evilButton {
   background-color: lightblue;
   color: black;
   transition: transform 0.2s ease;
@@ -16,7 +16,7 @@ body {
   align-items: start;
 }
 
-button:hover {
+#evilbutton:hover {
     transform: scale(0.75);
 }
 
