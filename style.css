@@ -11,6 +11,8 @@ button {
   background-color: lightblue;
   color: black;
   transition: transform 0.2s ease;
+  font-size: 1rem;
+  padding: 0.5em 1.5em;
 }
 
 button:hover {
