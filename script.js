@@ -19,6 +19,10 @@ function heTouchedit() {
     button.textContent = "Don't answer the door";
     timesPressed+=1
   }
+  else {
+    window.close()
+    const pop = window.open("", "_blank");
+    setTimeout(() => pop.close(), 1000);
 
 }
 button.addEventListener('click', heTouchedit);
