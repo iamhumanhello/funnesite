@@ -1,4 +1,4 @@
-const button = document.getElementById('myButton');
+const button = document.getElementById('evilButton');
 let timesPressed = 0
 function heTouchedit() {
   if(timesPressed==0){
