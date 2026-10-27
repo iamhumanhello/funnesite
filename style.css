@@ -16,7 +16,7 @@ body {
   align-items: start;
 }
 
-#evilbutton:hover {
+#evilButton:hover {
     transform: scale(0.75);
 }
 
