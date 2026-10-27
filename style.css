@@ -2,7 +2,7 @@ h1 {
     font-family: 'Tiny5','wingdings';
     font-size: 80px;
 }
-body {
+.Centered {
     font-family: 'Tiny5';
     background: lightskyblue;
     text-align: center;
@@ -10,10 +10,10 @@ body {
 #evilButton {
   background-color: lightblue;
   color: black;
-  transition: transform 0.2s ease;
+  transition: transform 1s ease;
   font-size: 1rem;
   padding: 0.5em 1.5em;
-  align-items: start;
+  text-align: left;
 }
 
 #evilButton:hover {
