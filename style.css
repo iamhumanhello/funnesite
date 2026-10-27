@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Tiny5','wingdings';
+    font-size: 80px;
+}
+body {
+    font-family: 'Tiny5';
+    background: lightskyblue;
+    text-align: center;
+    }
+button {
+  background-color: lightblue;
+  color: black;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(0.75);
+}
+
