@@ -1,25 +1,32 @@
-h1 {
+h1  {
     font-family: 'Tiny5','wingdings';
-    font-size: 80px;
+    font-size: 4rem;
 }
-.Centered {
+p {
+    font-size: 2rem;
+}
+.Centered  {
     font-family: 'Tiny5';
     text-align: center;
-    }
-#evilButton {
-  background-color: lightblue;
-  color: black;
-  transition: transform 1s ease;
-  font-size: 1rem;
-  padding: 0.2em 1.0em;
-  text-align: left;
+    color: white;
 }
 
-#evilButton:hover {
-  transform: scale(0.75);
+#evilButton  {
+    background-color: rgb(16,42,67);
+    color: black;
+    transition: transform 1s ease;
+    font-size: 1rem;
+    padding: 0.2em 1.0em;
+    text-align: center;
+    border: none;
 }
-html, body {
-  margin: 0;
-  min-height: 100vh;
-  background: lightskyblue;
+
+#evilButton:hover  {
+    transform: scale(0.75);
+}
+
+html, body  {
+    margin: 0;
+    min-height: 100vh;
+    background: rgb(16,42,67);
 }
