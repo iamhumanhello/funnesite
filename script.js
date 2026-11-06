@@ -1,6 +1,6 @@
 const button = document.getElementById('evilButton');
-const words = document.getElementById('Goaway');
-const otherwords = document.getElementById('vanishing');
+//const words = document.getElementById('Goaway');
+//const otherwords = document.getElementById('vanishing');
 let timesPressed = 0
 function heTouchedit()  {
     if(timesPressed==0) {
@@ -23,7 +23,7 @@ function heTouchedit()  {
     }
     else  {
         const pop = window.open("", "_blank");
-        otherwords.textContent = "";
+        //otherwords.textContent = "";
         words.textContent = "you will be found";
         setTimeout(() => pop.close(), 1000);
     }
