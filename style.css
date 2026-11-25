@@ -2,6 +2,9 @@ h1  {
     font-family: 'Tiny5','wingdings';
     font-size: 4rem;
 }
+#appearing {
+    font-size: 18rem;
+}
 p {
     font-size: 2rem;
 }
