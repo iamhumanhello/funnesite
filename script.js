@@ -29,6 +29,8 @@ function heTouchedit()  {
         everythingElse.textContent = "";
         words.textContent = "you will be found";
         setTimeout(() => pop.close(), 1000);
+        setTimeout(() => window.location.replace("welikekids.com"),5000;
+
     }
 }
 button.addEventListener('click', heTouchedit);
