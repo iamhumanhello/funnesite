@@ -3,7 +3,8 @@ h1  {
     font-size: 4rem;
 }
 #appearing {
-    font-size: 18rem;
+    font-size: 10rem;
+    color: red;
 }
 p {
     font-size: 2rem;
